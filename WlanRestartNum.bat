@@ -4,11 +4,11 @@ set /a sum=0
 set /a i=1
 :start
 set /a sum+=!i!
-echo --------µÚ---!sum!---´Î--------
+echo --------ç¬¬---!sum!---æ¬¡--------
 netsh wlan disconnect
-::nameÎªÎŞÏßÃû
+::nameä¸ºæ— çº¿å
 netsh wlan connect name=54-101
-::180Ãë¼ä¸ô
+::180ç§’é—´éš”
 timeout /T 180 /NOBREAK
 cls
 goto start
